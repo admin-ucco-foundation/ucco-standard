@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion
+    url: https://github.com/ucco-foundation/ucco-standard/discussions
+    about: Ask questions, share ideas, or start a conversation about the UCCO standard.
+  - name: Security vulnerability
+    url: https://github.com/ucco-foundation/ucco-standard/blob/main/SECURITY.md
+    about: Report security vulnerabilities privately — do not open a public issue.

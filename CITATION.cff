@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "UCCO: Universal Capability Certification Object"
+message: "If you reference the UCCO standard, please cite it as below."
+type: standard
+authors:
+  - name: "UCCO Foundation"
+    website: "https://ucco.foundation"
+repository-code: "https://github.com/ucco-foundation/ucco-standard"
+url: "https://ucco.foundation"
+license: CC-BY-4.0
+version: "1.1-rev2-draft"
+date-released: "2026-03-14"
+keywords:
+  - capability certification
+  - cryptographic credentials
+  - open standard
+  - identity verification
+  - competency verification
+  - autonomous agents

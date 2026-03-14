@@ -1,0 +1,51 @@
+name: Specification Proposal
+description: Propose a change or addition to the UCCO specification
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a substantive change to the specification. For minor editorial fixes (typos, formatting), open a pull request directly.
+  - type: input
+    id: section
+    attributes:
+      label: Affected section(s)
+      description: Which sections of the specification does this proposal affect?
+      placeholder: "Section X.X, Section Y.Y"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief description of the proposed change.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this change needed? What problem does it solve? Include implementation experience if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: Describe the change in detail. Include draft normative text if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Backward compatibility
+      description: Does this change break compatibility with the current draft? If so, what is the migration path?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you consider, and why is this one preferred?
+    validations:
+      required: false

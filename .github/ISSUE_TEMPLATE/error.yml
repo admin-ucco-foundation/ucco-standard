@@ -1,0 +1,49 @@
+name: Specification Error
+description: Report an error, inconsistency, or incorrect statement in the specification
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to report errors in the specification — incorrect normative language, inconsistencies between sections, broken references, or technical inaccuracies.
+  - type: input
+    id: section
+    attributes:
+      label: Section reference
+      description: The section and clause number where the error appears.
+      placeholder: "Section X.X"
+    validations:
+      required: true
+  - type: textarea
+    id: error-description
+    attributes:
+      label: Description of the error
+      description: What is wrong? Be specific — quote the problematic text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected or correct statement
+      description: What should the specification say instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How significant is this error?
+      options:
+        - Editorial (typo, formatting, non-normative)
+        - Minor (incorrect reference, unclear but not misleading)
+        - Major (normative error, could cause non-conforming implementations)
+        - Critical (security-relevant, affects cryptographic correctness)
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any additional information that would help the editorial team assess this error.
+    validations:
+      required: false

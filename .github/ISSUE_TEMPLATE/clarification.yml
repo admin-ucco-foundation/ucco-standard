@@ -1,0 +1,44 @@
+name: Clarification Request
+description: Request clarification on a section of the UCCO specification
+labels: ["clarification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when the specification is ambiguous, unclear, or could be interpreted in multiple ways.
+  - type: input
+    id: section
+    attributes:
+      label: Section reference
+      description: The section and clause number (e.g. "Section 4.2, clause 3")
+      placeholder: "Section X.X"
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current text
+      description: Quote the relevant text from the specification.
+    validations:
+      required: true
+  - type: textarea
+    id: ambiguity
+    attributes:
+      label: What is unclear
+      description: Describe the ambiguity or the multiple interpretations you see.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested clarification
+      description: If you have a proposed rewording, include it here.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Are you implementing the spec? Which part of the standard brought you here?
+    validations:
+      required: false
