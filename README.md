@@ -38,9 +38,9 @@ If you're building a conforming implementation:
 
 UCCO is developed in the open. Everyone can contribute.
 
-- **[Discussions](https://github.com/admin-ucco-foundation/ucco-standard/discussions)** — ask questions, propose ideas, share feedback
-- **[Issues](https://github.com/admin-ucco-foundation/ucco-standard/issues)** — report problems or request changes to the spec
-- **[Pull Requests](https://github.com/admin-ucco-foundation/ucco-standard/pulls)** — propose edits to the standard
+- **[Discussions](https://github.com/ucco-foundation/ucco-standard/discussions)** — ask questions, propose ideas, share feedback
+- **[Issues](https://github.com/ucco-foundation/ucco-standard/issues)** — report problems or request changes to the spec
+- **[Pull Requests](https://github.com/ucco-foundation/ucco-standard/pulls)** — propose edits to the standard
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
